@@ -1,0 +1,8 @@
+ruling_number,ruling_date,product_description,hts_codes,url,excerpt
+TEST-0201,2025-01-01,"Valid synthetic row",8507.60.0090,,
+,2025-01-01,"Missing ruling number",8507.60.0090,,
+TEST-0203,2025-01-01,"",8507.60.0090,,
+TEST-0204,2025-01-01,"Bad code",85076,,
+TEST-0205,01/02/2025,"Bad date",8507.60.0090,,
+TEST-0206,2025-01-01,"No codes",,,
+TEST-0201,2025-02-02,"Duplicate number, later row wins",8507.60.0010,,

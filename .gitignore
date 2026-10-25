@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# .NET (not used here, kept for consistency across repos)
+bin/
+obj/
+
+# Unverified rulings drafts stay local; the verified corpus (rulings.csv) is committed.
+data/rulings/*.csv
+data/rulings/*.jsonl
+!data/rulings/rulings_template.csv
+!data/rulings/rulings.csv

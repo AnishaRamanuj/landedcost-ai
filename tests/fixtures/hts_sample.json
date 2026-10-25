@@ -1,0 +1,5010 @@
+{
+ "fetched_at": "2026-09-04",
+ "source": "https://hts.usitc.gov/reststop/exportList",
+ "license": "US Government public domain",
+ "note": "Subset of the official USITC HTS export (US Government work, public domain) used by unit tests.",
+ "rows": [
+  {
+   "htsno": "0101",
+   "indent": "0",
+   "description": "Live horses, asses, mules and hinnies:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Horses:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.21.00",
+   "indent": "2",
+   "description": "Purebred breeding animals",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.21.00.10",
+   "indent": "3",
+   "description": "Males",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.21.00.20",
+   "indent": "3",
+   "description": "Females",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.29.00",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "20%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.29.00.10",
+   "indent": "3",
+   "description": "Imported for immediate slaughter",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.29.00.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.30.00.00",
+   "indent": "1",
+   "description": "Asses",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "6.8%",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "15%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.90",
+   "indent": "1",
+   "description": "Other:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.90.30.00",
+   "indent": "2",
+   "description": "Imported for immediate slaughter",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0101.90.40.00",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "4.5%",
+   "special": "Free (A+,AU,BH,CL,CO,D,E, IL,JO,KR,MA,OM,P,PA,PE,S, SG)",
+   "other": "20%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102",
+   "indent": "0",
+   "description": "Live bovine animals:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Cattle:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.21.00",
+   "indent": "2",
+   "description": "Purebred breeding animals",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Dairy:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.21.00.10",
+   "indent": "4",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.21.00.20",
+   "indent": "4",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.21.00.30",
+   "indent": "4",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.21.00.50",
+   "indent": "4",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29",
+   "indent": "2",
+   "description": "Other:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.20",
+   "indent": "3",
+   "description": "Cows imported specially for dairy purposes",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "6.6¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.20.11",
+   "indent": "4",
+   "description": "Weighing less than 90 kg each",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.20.12",
+   "indent": "4",
+   "description": "Weighing 90 kg or more each",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "1¢/kg",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "5.5¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing less than 90 kg each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.24",
+   "indent": "5",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.28",
+   "indent": "5",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing 90 kg or more but less than 200 kg each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.34",
+   "indent": "5",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.38",
+   "indent": "5",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing 200 kg or more but less than 320 kg each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.54",
+   "indent": "5",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.58",
+   "indent": "5",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing 320 kg or more each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "For immediate slaughter:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.62",
+   "indent": "6",
+   "description": "Steers",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.64",
+   "indent": "6",
+   "description": "Bulls",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.66",
+   "indent": "6",
+   "description": "Cows",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.68",
+   "indent": "6",
+   "description": "Heifers",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "For breeding:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.72",
+   "indent": "6",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.74",
+   "indent": "6",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.82",
+   "indent": "6",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.29.40.84",
+   "indent": "6",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Buffalo:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.31.00",
+   "indent": "2",
+   "description": "Purebred breeding animals",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.31.00.10",
+   "indent": "3",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.31.00.20",
+   "indent": "3",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "1¢/kg",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "5.5¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.10",
+   "indent": "3",
+   "description": "Bison",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing less than 90 kg each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.24",
+   "indent": "5",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.28",
+   "indent": "5",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing 90 kg or more but less than 200 kg each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.34",
+   "indent": "5",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.38",
+   "indent": "5",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing 200 kg or more but less than 320 kg each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.54",
+   "indent": "5",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.58",
+   "indent": "5",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing 320 kg or more each:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.61",
+   "indent": "5",
+   "description": "For immediate slaughter",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "For breeding:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.72",
+   "indent": "6",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.74",
+   "indent": "6",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.82",
+   "indent": "6",
+   "description": "Male",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.39.00.84",
+   "indent": "6",
+   "description": "Female",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0102.90.00.00",
+   "indent": "1",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "1¢/kg",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "5.5¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0409.00.00",
+   "indent": "0",
+   "description": "Natural honey",
+   "superior": null,
+   "units": [],
+   "general": "1.9¢/kg",
+   "special": "Free (A+,AU,BH,CL,CO,D,E, IL,JO,KR,MA,OM,P,PA,PE,S, SG)",
+   "other": "6.6¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0409.00.00.05",
+   "indent": "1",
+   "description": "Certified Organic",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0409.00.00.10",
+   "indent": "2",
+   "description": "Comb honey and honey packaged for retail sale",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0409.00.00.35",
+   "indent": "3",
+   "description": "White or lighter",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0409.00.00.45",
+   "indent": "3",
+   "description": "Extra light amber",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0409.00.00.56",
+   "indent": "3",
+   "description": "Light amber",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "0409.00.00.65",
+   "indent": "3",
+   "description": "Amber or darker",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509",
+   "indent": "0",
+   "description": "Olive oil and its fractions, whether or not refined, but not chemically modified:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.20",
+   "indent": "1",
+   "description": "Extra virgin olive oil:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.20.20",
+   "indent": "2",
+   "description": "Weighing with the immediate container under 18 kg",
+   "superior": null,
+   "units": [],
+   "general": "5¢/kg on contents and container",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "17.6¢/kg on contents and container",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.20.20.30",
+   "indent": "3",
+   "description": "Certified organic",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.20.20.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.20.90",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "3.4¢/kg",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "14.3¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.20.90.30",
+   "indent": "3",
+   "description": "Certified organic",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.20.90.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.30",
+   "indent": "1",
+   "description": "Virgin olive oil:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.30.20",
+   "indent": "2",
+   "description": "Weighing with the immediate container under 18 kg",
+   "superior": null,
+   "units": [],
+   "general": "5¢/kg on contents and container",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "17.6¢/kg on contents and container",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.30.20.30",
+   "indent": "3",
+   "description": "Certified organic",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.30.20.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.30.90",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "3.4¢/kg",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "14.3¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.30.90.30",
+   "indent": "3",
+   "description": "Certified organic",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.30.90.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.40",
+   "indent": "1",
+   "description": "Other virgin olive oils:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.40.20",
+   "indent": "2",
+   "description": "Weighing with the immediate container under 18 kg",
+   "superior": null,
+   "units": [],
+   "general": "5¢/kg on contents and container",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "17.6¢/kg on contents and container",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.40.20.30",
+   "indent": "3",
+   "description": "Certified organic",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.40.20.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.40.90",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "3.4¢/kg",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "14.3¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.40.90.30",
+   "indent": "3",
+   "description": "Certified organic",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.40.90.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.90",
+   "indent": "1",
+   "description": "Other:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.90.20.00",
+   "indent": "2",
+   "description": "Weighing with the immediate container under 18 kg",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "5¢/kg on contents and container",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "17.6¢/kg on contents and container",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "1509.90.40.00",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "3.4¢/kg",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "14.3¢/kg",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109",
+   "indent": "0",
+   "description": "T-shirts, singlets, tank tops and similar garments, knitted or crocheted:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00",
+   "indent": "1",
+   "description": "Of cotton",
+   "superior": null,
+   "units": [],
+   "general": "16.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Men's or boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.04",
+   "indent": "3",
+   "description": "T-shirts, all white, short hemmed sleeves, hemmed bottom, crew or round neckline, or V-neck with a mitered seam at the center of the V, without pockets, trim or embroidery (352)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.07",
+   "indent": "3",
+   "description": "Singlets, all white, without pockets, trim or embroidery (352)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.11",
+   "indent": "3",
+   "description": "Thermal undershirts (352)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other T-shirts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.12",
+   "indent": "4",
+   "description": "Men's (338)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.14",
+   "indent": "4",
+   "description": "Boys' (338)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Tank tops and other singlets:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.18",
+   "indent": "4",
+   "description": "Men's (338)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.23",
+   "indent": "4",
+   "description": "Boys' (338)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.27",
+   "indent": "3",
+   "description": "Other (338)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Women's or girls':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.37",
+   "indent": "3",
+   "description": "Underwear (352)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "T-shirts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.40",
+   "indent": "5",
+   "description": "Women's (339)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.45",
+   "indent": "5",
+   "description": "Girls' (339)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Tank tops:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.60",
+   "indent": "5",
+   "description": "Women's (339)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.65",
+   "indent": "5",
+   "description": "Girls' (339)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.10.00.70",
+   "indent": "4",
+   "description": "Other (339)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90",
+   "indent": "1",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10",
+   "indent": "2",
+   "description": "Of man-made fibers",
+   "superior": null,
+   "units": [],
+   "general": "32%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Men's or boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "T-shirts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.07",
+   "indent": "5",
+   "description": "Men's (638)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.09",
+   "indent": "5",
+   "description": "Boys' (638)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Tank tops and singlets:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.13",
+   "indent": "5",
+   "description": "Men's (638)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.25",
+   "indent": "5",
+   "description": "Boys' (638)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.47",
+   "indent": "4",
+   "description": "Thermal undershirts (652)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.49",
+   "indent": "4",
+   "description": "Other (638)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Women's or girls':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "T-shirts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.50",
+   "indent": "5",
+   "description": "Women's (639)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.60",
+   "indent": "5",
+   "description": "Girls' (639)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Tank tops and singlets:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.65",
+   "indent": "5",
+   "description": "Women's (639)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.70",
+   "indent": "5",
+   "description": "Girls' (639)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.75",
+   "indent": "4",
+   "description": "Thermal undershirts (652)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.10.90",
+   "indent": "4",
+   "description": "Other (639)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.15",
+   "indent": "2",
+   "description": "Of wool, with long sleeves",
+   "superior": null,
+   "units": [],
+   "general": "5.6%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "55.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Men's or boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.15.10",
+   "indent": "4",
+   "description": "Underwear (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.15.20",
+   "indent": "4",
+   "description": "Other (438)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Women's or girls':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.15.30",
+   "indent": "4",
+   "description": "Underwear (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.15.40",
+   "indent": "4",
+   "description": "Other (438)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.40",
+   "indent": "2",
+   "description": "Containing 70 percent or more by weight of silk or silk waste",
+   "superior": null,
+   "units": [],
+   "general": "2.6%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.40.10",
+   "indent": "3",
+   "description": "Men's or boys' (738)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.40.20",
+   "indent": "3",
+   "description": "Women's or girls' (739)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.80",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "16%",
+   "special": "Free (AU,BH,CL,CO,E*,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.80.10",
+   "indent": "3",
+   "description": "Men's or boys' (838)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Women's or girls':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.80.20",
+   "indent": "4",
+   "description": "Of wool (438)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6109.90.80.30",
+   "indent": "4",
+   "description": "Other (838)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010",
+   "indent": "0",
+   "description": "Carboys, bottles, flasks, jars, pots, vials, ampoules and other containers, of glass, of a kind used for the conveyance or packing of goods; preserving jars of glass; stoppers, lids and other closures, of glass:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.10.00.00",
+   "indent": "1",
+   "description": "Ampoules",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "50¢/gross",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.20",
+   "indent": "1",
+   "description": "Stoppers, lids and other closures:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.20.20.00",
+   "indent": "2",
+   "description": "Produced by automatic machine",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "2.5%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "25%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.20.30.00",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "5.2%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90",
+   "indent": "1",
+   "description": "Other:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.05",
+   "indent": "2",
+   "description": "Serum bottles, vials and other pharmaceutical containers",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "50¢/gross",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.05.10",
+   "indent": "3",
+   "description": "Of a capacity exceeding 1 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.05.20",
+   "indent": "3",
+   "description": "Of a capacity exceeding 0.33 liter but not exceeding 1 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.05.30",
+   "indent": "3",
+   "description": "Of a capacity exceeding 0.15 liter but not exceeding 0.33 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.05.40",
+   "indent": "3",
+   "description": "Of a capacity not exceeding 0.15 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Containers (with or without their closures) of a kind used for the conveyance or packing of perfume or other toilet preparations; other containers if fitted with or designed for use with ground glass stoppers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.20",
+   "indent": "3",
+   "description": "Produced by automatic machine",
+   "superior": null,
+   "units": [],
+   "general": "2.5%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "25%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.20.10",
+   "indent": "4",
+   "description": "Of a capacity exceeding 1 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.20.20",
+   "indent": "4",
+   "description": "Of a capacity exceeding 0.33 liter but not exceeding 1 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.20.30",
+   "indent": "4",
+   "description": "Of a capacity exceeding 0.15 liter but not exceeding 0.33 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.20.40",
+   "indent": "4",
+   "description": "Of a capacity not exceeding 0.15 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.30",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "5.2%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.30.10",
+   "indent": "4",
+   "description": "Of a capacity exceeding 1 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.30.20",
+   "indent": "4",
+   "description": "Of a capacity exceeding 0.33 liter but not exceeding 1 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.30.30",
+   "indent": "4",
+   "description": "Of a capacity exceeding 0.15 liter but not exceeding 0.33 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.30.40",
+   "indent": "4",
+   "description": "Of a capacity not exceeding 0.15 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50",
+   "indent": "2",
+   "description": "Other containers (with or without their closures)",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "4.9%",
+   "footnotes": [
+    {
+     "columns": [
+      "other"
+     ],
+     "value": "See 9903.90.08. ",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of a capacity exceeding 1 liter:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.05",
+   "indent": "4",
+   "description": "Having a mouth with an outer diameter of 38 mm or more",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.09",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of a capacity exceeding 0.473 liter but not exceeding 1 liter:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.15",
+   "indent": "4",
+   "description": "Having a mouth with an outer diameter of 38 mm or more",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.19",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of a capacity exceeding 0.33 liter but not exceeding 0.473 liter:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.25",
+   "indent": "4",
+   "description": "Having a mouth with an outer diameter of 38 mm or more",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.29",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of a capacity exceeding 0.15 liter but not exceeding 0.33 liter:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.35",
+   "indent": "4",
+   "description": "Having a mouth with an outer diameter of 38 mm or more",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.39",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of a capacity exceeding 0.118 liter but not exceeding 0.15 liter:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.45",
+   "indent": "4",
+   "description": "Having a mouth with an outer diameter of 38 mm or more",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.49",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "7010.90.50.55",
+   "indent": "3",
+   "description": "Of a capacity not exceeding 0.118 liter",
+   "superior": null,
+   "units": [
+    "gross"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8213.00",
+   "indent": "0",
+   "description": "Scissors, tailors' shears and similar shears, and blades and other base metal parts thereof:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8213.00.30.00",
+   "indent": "1",
+   "description": "Valued not over $1.75/dozen",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "1.7¢ each + 4.3%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "15¢ each + 45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Valued over $1.75/dozen:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8213.00.60.00",
+   "indent": "2",
+   "description": "Pinking shears, valued over $30/dozen",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "8¢ each + 8%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "20¢ each + 45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8213.00.90.00",
+   "indent": "2",
+   "description": "Other (including parts)",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "3¢ each + 3%",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "20¢ each + 45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507",
+   "indent": "0",
+   "description": "Electric storage batteries, including separators therefor, whether or not rectangular (including square); parts thereof:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.10.00",
+   "indent": "1",
+   "description": "Lead-acid storage batteries, of a kind used for starting piston engines",
+   "superior": null,
+   "units": [],
+   "general": "3.5%",
+   "special": "Free (A,AU,B,BH,C,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "12 V batteries:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.10.00.30",
+   "indent": "3",
+   "description": "Not exceeding 6 kg in weight",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.10.00.60",
+   "indent": "3",
+   "description": "Exceeding 6 kg in weight",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.10.00.90",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.20",
+   "indent": "1",
+   "description": "Other lead-acid storage batteries:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.20.40.00",
+   "indent": "2",
+   "description": "Of a kind used as the primary source of electrical power for electrically powered vehicles of subheadings 8703.40, 8703.50, 8703.60, 8703.70 or 8703.80",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "3.5%",
+   "special": "Free (A*,AU,B,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.20.80",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "3.5%",
+   "special": "Free (A*,AU,B,BH,C,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.20.80.31",
+   "indent": "3",
+   "description": "6 V batteries",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.20.80.41",
+   "indent": "3",
+   "description": "12 V batteries",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.20.80.61",
+   "indent": "3",
+   "description": "36 V batteries",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.20.80.92",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.30",
+   "indent": "1",
+   "description": "Nickel-cadmium storage batteries:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.30.40.00",
+   "indent": "2",
+   "description": "Of a kind used as the primary source of electrical power for electrically powered vehicles of subheadings 8703.40, 8703.50, 8703.60, 8703.70 or 8703.80",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "2.5%",
+   "special": "Free (A,AU,B,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.30.80",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "2.5%",
+   "special": "Free (A,AU,B,BH,C,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.30.80.10",
+   "indent": "3",
+   "description": "Sealed",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.30.80.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.50.00.00",
+   "indent": "1",
+   "description": "Nickel-metal hydride batteries",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "3.4%",
+   "special": "Free (A,AU,B,BH,C,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.60.00",
+   "indent": "1",
+   "description": "Lithium-ion batteries",
+   "superior": null,
+   "units": [],
+   "general": "3.4%",
+   "special": "Free (A,AU,B,BH,C,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.60.00.10",
+   "indent": "2",
+   "description": "Of a kind used as the primary source of electrical power for electrically powered vehicles of subheadings 8703.40, 8703.50, 8703.60, 8703.70 or 8703.80",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.60.00.30",
+   "indent": "3",
+   "description": "Battery energy storage systems fully encased within a housing, as described in statistical note 2 to this chapter",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.60.00.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.80",
+   "indent": "1",
+   "description": "Other storage batteries:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.80.41.00",
+   "indent": "2",
+   "description": "Of a kind used as the primary source of electrical power for electrically powered vehicles of subheadings 8703.40, 8703.50, 8703.60, 8703.70 or 8703.80",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "3.4%",
+   "special": "Free (A,AU,B,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.80.82.00",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "3.4%",
+   "special": "Free (A,AU,B,BH,C,CL,CO,D,E,IL,JO,JP,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.90",
+   "indent": "1",
+   "description": "Parts:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.90.40.00",
+   "indent": "2",
+   "description": "Of lead-acid storage batteries",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "3.5%",
+   "special": "Free (A,AU,B,BH,C,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "8507.90.80.00",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "3.4%",
+   "special": "Free (A,AU,B,BH,C,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9103",
+   "indent": "0",
+   "description": "Clocks with watch movements, excluding clocks of heading 9104:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9103.10",
+   "indent": "1",
+   "description": "Electrically operated:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9103.10.20",
+   "indent": "2",
+   "description": "With opto-electronic display only",
+   "superior": null,
+   "units": [],
+   "general": "2.6% on the movement and case + 3.6% on the battery",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA, OM,P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [
+    {
+     "columns": [
+      "stat",
+      "units"
+     ],
+     "value": "See statistical note 1 to this chapter. ",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9103.10.40",
+   "indent": "3",
+   "description": "Having no jewels or only one jewel in the movement",
+   "superior": null,
+   "units": [],
+   "general": "24¢ each + 4.5% on the case + 3.5% on the battery",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA, OM,P,PA,PE,S,SG)",
+   "other": "$1.50 each + 45% on the case + 35% on the battery",
+   "footnotes": [
+    {
+     "columns": [
+      "stat",
+      "units"
+     ],
+     "value": "See statistical note 1 to this chapter. ",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9103.10.80",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "48¢ each + 4.6% on the case + 3.5% on the battery",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA, OM,P,PA,PE,S,SG)",
+   "other": "$2.50 each + 45% on the case + 35% on the battery",
+   "footnotes": [
+    {
+     "columns": [
+      "stat",
+      "units"
+     ],
+     "value": "See statistical note 1 to this chapter. ",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9103.90.00",
+   "indent": "1",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "24¢ each + 4.6% on the case",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA, OM,P,PA,PE,S,SG)",
+   "other": "$1.50 each + 45% on the case",
+   "footnotes": [
+    {
+     "columns": [
+      "stat",
+      "units"
+     ],
+     "value": "See statistical note 1 to this chapter. ",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10",
+   "indent": "0",
+   "description": "Products of the United States when returned after having been exported, or any other products when returned within 3 years after having been exported, without having been advanced in value or improved in condition by any process of manufacture or other means while abroad",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.10",
+   "indent": "1",
+   "description": "Articles previously exported with intent to reimport after temporary use abroad",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.12",
+   "indent": "1",
+   "description": "Articles returned temporarily for repair, alteration, processing or the like, the foregoing to be reexported",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.15",
+   "indent": "2",
+   "description": "Meat and poultry products provided for in chapter 2 or 16",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.26",
+   "indent": "2",
+   "description": "Peanuts provided for in heading 1202",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.27",
+   "indent": "2",
+   "description": "Articles provided for in chapter 28",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.28",
+   "indent": "2",
+   "description": "Articles provided for in chapter 30",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.29",
+   "indent": "2",
+   "description": "Articles provided for in chapter 37",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.30",
+   "indent": "2",
+   "description": "Articles provided for in chapter 71",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.31",
+   "indent": "2",
+   "description": "Articles provided for in chapter 82",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Articles provided for in chapter 84:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.35",
+   "indent": "3",
+   "description": "Articles provided for in headings 8407.10, 8409.10, 8411 or 8412.10",
+   "superior": null,
+   "units": [
+    "No. and kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.37",
+   "indent": "3",
+   "description": "Articles provided for in subheadings 8419.33.10, 8419.34.00, 8424.41, 8424.49, 8424.82, 8424.90, 8429.11, 8429.19 or 8431.42 or headings 8432, 8433, 8434 or 8436",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.43",
+   "indent": "3",
+   "description": "Articles provided for in headings 8470, 8471, 8472 or 8473",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.45",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Articles provided for in chapter 85:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.49",
+   "indent": "3",
+   "description": "Articles provided for in headings 8501, 8502 or 8503",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.51",
+   "indent": "3",
+   "description": "Articles provided for in heading 8504",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.53",
+   "indent": "3",
+   "description": "Articles provided for in headings 8517, 8519, 8525, 8527 or 8529",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.55",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.59",
+   "indent": "2",
+   "description": "Articles provided for in chapter 86",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Articles provided for in chapter 87:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.63",
+   "indent": "3",
+   "description": "Articles provided for in heading 8701",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.64",
+   "indent": "3",
+   "description": "Articles provided for in heading 8702",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.65",
+   "indent": "3",
+   "description": "Articles provided for in heading 8703",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.66",
+   "indent": "3",
+   "description": "Articles provided for in heading 8704",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.67",
+   "indent": "3",
+   "description": "Articles provided for in headings 8706, 8707 or 8708",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.69",
+   "indent": "3",
+   "description": "Articles provided for in headings 8705 or 8709",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.74",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Articles provided for in chapter 88:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.75",
+   "indent": "3",
+   "description": "Articles provided for in headings 8801 or 8802",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.77",
+   "indent": "3",
+   "description": "Articles provided for in heading 8804",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.79",
+   "indent": "3",
+   "description": "Articles provided for in headings 8805, 8806 or 8807",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "2",
+     "value": " Report data using the unit of quantity in the applicable subheading of chapter 88. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.89",
+   "indent": "2",
+   "description": "Articles provided for in chapter 89",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.90",
+   "indent": "2",
+   "description": "Articles provided for in chapter 90",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Articles provided for in chapter 94:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.92",
+   "indent": "3",
+   "description": "Articles provided for in headings 9401, 9402 or 9403",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.94",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.97",
+   "indent": "2",
+   "description": "Articles provided for in chapter 97",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.10.98",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.11.00",
+   "indent": "0",
+   "description": "United States Government property, returned to the United States without having been advanced in value or improved in condition by any means while abroad, entered by the United States Government or a contractor to the United States Government, and certified by the importer as United States Government property",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.20.00",
+   "indent": "0",
+   "description": "Articles, previously imported, with respect to which the duty was paid upon such previous importation or which were previously free of duty pursuant to the Caribbean Basin Economic Recovery Act or Title V of the Trade Act of 1974, if (1) reimported, without having been advanced in value or improved in condition by any process of manufacture or other means while abroad, after having been exported under lease or similar use agreements, and (2) reimported by or for the account of the person who imported it into, and exported it from, the United States",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.25.00",
+   "indent": "0",
+   "description": "Articles, previously imported, with respect to which the duty was paid upon such previous importation if (1) exported within three years after the date of such previous importation, (2) reimported without having been advanced in value or improved in condition by any process of manufacture or other means while abroad, (3) reimported for the reason that such articles do not conform to sample or specifications, and (4) reimported by or for the account of the person who imported them into, and exported them from, the United States",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.26.00",
+   "indent": "0",
+   "description": "Articles, previously imported, with respect to which the duty was paid upon such previous importation, if: (1) exported within 3 years after the date of such previous importation; (2) sold for exportation and exported to individuals for personal use; (3) reimported without having been advanced in value or improved in condition by any process of manufacture or other means while abroad; (4) reimported as personal returns from those individuals, whether or not consolidated with other personal returns prior to reimportation; and (5) reimported by or for the account of the person who exported them from the United States within 1 year of such exportation",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.30.00",
+   "indent": "0",
+   "description": "Any aircraft engine or propeller, or any part or accessory of either, previously imported, with respect to which the duty was paid upon such previous importation, if (1) reimported without having been advanced in value or improved in condition by any process of manufacture or other means while abroad, after having been exported under loan, lease or rent to an aircraft owner or operator as a temporary replacement for an aircraft engine being overhauled, repaired, rebuilt or reconditioned in the United States, and (2) reimported by or for the account of the person who exported it from the United States",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "0",
+   "description": "Articles, when returned after having been exported for use temporarily abroad solely for any of the following purposes, if imported by or for the account of the person who exported them:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.40",
+   "indent": "1",
+   "description": "Exhibition, examination or experimentation, for scientific or educational purposes",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [
+    {
+     "columns": [
+      "stat"
+     ],
+     "marker": "1",
+     "value": "See chapter 98 statistical note 1.",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.50",
+   "indent": "1",
+   "description": "Exhibition in connection with any circus or menagerie",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [
+    {
+     "columns": [
+      "stat"
+     ],
+     "marker": "1",
+     "value": "See chapter 98 statistical note 1.",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.60",
+   "indent": "1",
+   "description": "Exhibition or use at any public exposition, fair or conference",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [
+    {
+     "columns": [
+      "stat"
+     ],
+     "marker": "1",
+     "value": "See chapter 98 statistical note 1.",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.65",
+   "indent": "1",
+   "description": "Rendition of geophysical or contracting services in connection with the exploration for, or the extraction or development of, natural resources",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [
+    {
+     "columns": [
+      "stat"
+     ],
+     "marker": "1",
+     "value": "See chapter 98 statistical note 1.",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "0",
+   "description": "Articles previously exported from the United States which-- except for U.S. note 1 of this subchapter--would qualify for free entry under one of the foregoing items and are not otherwise free of duty:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.70.00",
+   "indent": "1",
+   "description": "Aircraft exported from the United States with benefit of drawback or heading 9813.00.05",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "A duty equal to the duty upon the importation of like articles not previously exported, but in no case in excess of the sum of (a) any customs drawback proved to have been allowed upon such exportation, and (b) the duty which would have been payable on any articles used in the manufacture or production of such aircraft had they not been entered and exported under heading 9813.00.05",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "A duty equal to the duty upon the importation of like articles not previously exported, but in no case in excess of the sum of (a) any customs drawback proved to have been allowed upon such exportation, and (b) the duty which would have been payable on any articles used in the manufacture or production of such aircraft had they not been entered and exported under heading 9813.00.05",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.80",
+   "indent": "1",
+   "description": "Other, except articles excluded by U.S. note 1(c) of this subchapter",
+   "superior": null,
+   "units": [],
+   "general": "A duty (in lieu of any other duty or tax) equal to the sum of any duty and internal- revenue tax imposed upon the importation of like articles not previously exported, but in no case in excess of the sum of (a) any customs drawback proved to have been allowed upon such exportation of the article, and (b) any internal- revenue tax imposed, at the time such article is entered, upon the importation of like articles not previously exported",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA, OM,P,PA,PE,S, SG)",
+   "other": "A duty (in lieu of any other duty or tax) equal to the sum of any duty and internal- revenue tax imposed upon the importation of like articles not previously exported, but in no case in excess of the sum of (a) any customs drawback proved to have been allowed upon such exportation of the article, and (b) any internal- revenue tax imposed, at the time such article is entered, upon the importation of like articles not previously exported",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.80.10",
+   "indent": "2",
+   "description": "Nonalcoholic beer provided for in subheading 2202.91.00",
+   "superior": null,
+   "units": [
+    "liters"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.80.20",
+   "indent": "2",
+   "description": "Alcohol provided for in headings 2203, 2204, 2205, 2206, 2207, and 2208",
+   "superior": null,
+   "units": [
+    "liters"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.80.30",
+   "indent": "2",
+   "description": "Tobacco and tobacco products provided for in chapter 24",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.80.40",
+   "indent": "2",
+   "description": "Cigarette paper provided for in heading 4813",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.80.90",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    ""
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [
+    {
+     "columns": [
+      "units"
+     ],
+     "marker": "1",
+     "value": " The quantities reported should be in the units provided in chapters 1-97. ",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.85.00",
+   "indent": "0",
+   "description": "Professional books, implements, instruments, and tools of trade, occupation, or employment, when returned to the United States after having been exported for use temporarily abroad, if imported by or for the account of the person who exported such items",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9801.00.90.00",
+   "indent": "0",
+   "description": "Animals, domesticated, straying across the boundary line into any foreign country, or driven across such boundary line by the owner for temporary pasturage purpose only, together with their offspring; all the foregoing if brought back to the United States within 8 months",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "Free",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9901.00.50",
+   "indent": "0",
+   "description": "Ethyl alcohol (provided for in subheadings 2207.10.60 and 2207.20) or any mixture containing such ethyl alcohol (provided for in heading 2710 or 3824) if such ethyl alcohol or mixture is to be used as a fuel or in producing a mixture of gasoline and alcohol, a mixture of a special fuel and alcohol, or any other mixture to be used as fuel (including motor fuel provided for in subheading 2710.12.15, 2710.19.16, 2710.19.24 or 2710.20.15), or is suitable for any such uses",
+   "superior": null,
+   "units": [],
+   "general": "14.27¢/ liter",
+   "special": "No change (A) Free (CA,IL, MX) See U.S. note 3 to this sub- chapter (E) See U.S. note 3(e) (CO,PE)",
+   "other": "14.27¢/ liter",
+   "footnotes": [
+    {
+     "columns": [
+      "stat",
+      "units"
+     ],
+     "marker": "1",
+     "value": "See chapter 99 statistical note 1.",
+     "type": "footnote"
+    },
+    {
+     "columns": [
+      "general",
+      "other"
+     ],
+     "marker": "2",
+     "value": "See subchapter I, U.S. note 1.",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "9901.00.52",
+   "indent": "0",
+   "description": "Ethyl tertiary-butyl ether (provided for in subheading 2909.19.18) and any mixture containing ethyl tertiary-butyl ether",
+   "superior": null,
+   "units": [],
+   "general": "5.99¢/ liter",
+   "special": "No change (A,E) Free (CA,IL, MX) See U.S. note 3(e) (CO,PE)",
+   "other": "5.99¢/ liter",
+   "footnotes": [
+    {
+     "columns": [
+      "stat",
+      "units"
+     ],
+     "marker": "1",
+     "value": "See chapter 99 statistical note 1.",
+     "type": "footnote"
+    },
+    {
+     "columns": [
+      "general",
+      "other"
+     ],
+     "marker": "2",
+     "value": "See subchapter I, U.S. note 1.",
+     "type": "footnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

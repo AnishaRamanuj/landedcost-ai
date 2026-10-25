@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>landedcost-ai</title>
+  <style>
+    :root { --fg:#1d232b; --muted:#5b6673; --line:#d9dee4; --bg:#f6f7f9; --card:#fff; --accent:#1f5fbf; --warn:#8a5a00; --warnbg:#fff6e0; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--fg); background:var(--bg); }
+    header { padding:20px 24px 8px; }
+    header h1 { margin:0; font-size:22px; }
+    header p { margin:4px 0 0; color:var(--muted); }
+    .disclaimer { margin:12px 24px; padding:10px 14px; background:var(--warnbg); color:var(--warn); border:1px solid #f0d9a0; border-radius:6px; }
+    main { display:grid; grid-template-columns:repeat(auto-fit, minmax(380px, 1fr)); gap:16px; padding:8px 24px 32px; }
+    section { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:16px; }
+    h2 { margin:0 0 12px; font-size:17px; }
+    label { display:block; font-size:13px; color:var(--muted); margin:8px 0 4px; }
+    textarea, input, select { width:100%; padding:8px; border:1px solid var(--line); border-radius:6px; font:inherit; }
+    .row { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    button { margin-top:12px; padding:8px 16px; border:0; border-radius:6px; background:var(--accent); color:#fff; font:inherit; cursor:pointer; }
+    .result { margin-top:16px; }
+    .cand { border-top:1px solid var(--line); padding:10px 0; }
+    .code { font-family:ui-monospace, SFMono-Regular, Menlo, monospace; font-weight:600; }
+    .muted { color:var(--muted); font-size:13px; }
+    .abstain { padding:10px; border-radius:6px; background:#f1f3f6; }
+    table { width:100%; border-collapse:collapse; }
+    td { padding:4px 0; border-bottom:1px solid var(--line); }
+    td:last-child { text-align:right; font-family:ui-monospace, monospace; }
+    ul.warn { padding-left:18px; color:var(--warn); font-size:13px; }
+    footer { padding:0 24px 24px; color:var(--muted); font-size:13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>landedcost-ai <span class="muted">v{{ version }}</span></h1>
+    <p>HTS suggestions with cited tariff text, an abstention gate, and landed-cost estimates.</p>
+  </header>
+  <div class="disclaimer"><strong>{{ disclaimer }}</strong></div>
+  <main>
+    <section>
+      <h2>Classify a product</h2>
+      <form id="classify-form">
+        <label for="desc">Product description</label>
+        <textarea id="desc" rows="3" required>Rechargeable lithium-ion battery pack for electric bicycles, 36V 10Ah</textarea>
+        <button type="submit">Suggest HTS codes</button>
+      </form>
+      <div id="classify-result" class="result"></div>
+    </section>
+    <section>
+      <h2>Estimate landed cost</h2>
+      <form id="lc-form">
+        <div class="row">
+          <div><label for="hts">HTS code (8 or 10 digits)</label><input id="hts" value="8507.60.00.90" required></div>
+          <div><label for="mode">Mode</label>
+            <select id="mode"><option>ocean</option><option>air</option><option>truck</option><option>rail</option></select></div>
+        </div>
+        <div class="row">
+          <div><label for="value">Customs value (USD)</label><input id="value" type="number" step="0.01" value="12000" required></div>
+          <div><label for="weight">Gross weight (kg)</label><input id="weight" type="number" step="0.1" value="850"></div>
+        </div>
+        <div class="row">
+          <div><label for="freight">Freight (USD, blank = quote)</label><input id="freight" type="number" step="0.01"></div>
+          <div><label for="insurance">Insurance (USD)</label><input id="insurance" type="number" step="0.01" value="60"></div>
+        </div>
+        <button type="submit">Estimate</button>
+      </form>
+      <div id="lc-result" class="result"></div>
+    </section>
+  </main>
+  <footer>Embedder: {{ embedder }} &middot; LLM: {{ llm }} &middot; <a href="/docs">OpenAPI docs</a></footer>
+  <script>
+    const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const money = (v) => v == null ? "n/a" : "$" + Number(v).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+
+    async function post(url, body) {
+      const res = await fetch(url, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)});
+      const data = await res.json();
+      if (!res.ok) throw new Error(typeof data.detail === "string" ? data.detail : JSON.stringify(data.detail));
+      return data;
+    }
+
+    document.getElementById("classify-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const out = document.getElementById("classify-result");
+      out.textContent = "Searching...";
+      try {
+        const r = await post("/classify", {description: document.getElementById("desc").value});
+        const ev = r.evidence;
+        let html = `<div class="muted">mode: ${esc(r.answer_mode)} &middot; confidence ${r.confidence.toFixed(2)} &middot; support ${ev.support.toFixed(2)} &middot; heading consensus ${ev.heading_consensus.toFixed(2)}</div>`;
+        if (r.abstained) {
+          html += `<div class="abstain"><strong>Abstained:</strong> ${esc(r.abstain_reason)}</div>`;
+        }
+        const cites = Object.fromEntries(r.citations.map((c) => [c.chunk_id, c]));
+        for (const c of r.candidates) {
+          html += `<div class="cand"><span class="code">${esc(c.hts_code)}</span> &middot; general rate <strong>${esc(c.general_rate || "n/a")}</strong>
+            <div>${esc(c.breadcrumb)}</div>
+            <div class="muted">${esc(c.rationale)}</div>
+            <div class="muted">cites: ${c.citations.map((id) => esc(cites[id]?.reference ?? id)).join(", ")}</div></div>`;
+        }
+        if (r.warnings.length) html += `<ul class="warn">${r.warnings.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>`;
+        out.innerHTML = html;
+      } catch (err) { out.textContent = "Error: " + err.message; }
+    });
+
+    document.getElementById("lc-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const out = document.getElementById("lc-result");
+      const num = (id) => { const v = document.getElementById(id).value; return v === "" ? null : v; };
+      out.textContent = "Calculating...";
+      try {
+        const r = await post("/landed-cost", {
+          hts_code: document.getElementById("hts").value, mode: document.getElementById("mode").value,
+          customs_value_usd: num("value"), weight_kg: num("weight"), freight_usd: num("freight"), insurance_usd: num("insurance"),
+        });
+        const rows = [["Customs value", r.customs_value_usd], [`Freight (${r.freight.source})`, r.freight.amount_usd],
+          ["Insurance", r.insurance_usd], [`Duty (${r.general_rate})`, r.duty.amount_usd], ["MPF", r.mpf.amount_usd]];
+        if (r.hmf) rows.push(["HMF", r.hmf.amount_usd]);
+        rows.push(["Total landed cost", r.total_landed_cost_usd]);
+        out.innerHTML = `<div><span class="code">${esc(r.hts_code)}</span> ${esc(r.breadcrumb)}</div>
+          <table>${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${money(v)}</td></tr>`).join("")}</table>
+          <div class="muted">${esc(r.duty.explanation)}</div>
+          <ul class="warn">${r.warnings.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>`;
+      } catch (err) { out.textContent = "Error: " + err.message; }
+    });
+  </script>
+</body>
+</html>

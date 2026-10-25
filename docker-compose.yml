@@ -1,0 +1,42 @@
+# docker compose up --build   ->  API on http://127.0.0.1:8201 (first start ingests the HTS)
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: landedcost
+      POSTGRES_PASSWORD: landedcost
+      POSTGRES_DB: landedcost
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U landedcost -d landedcost"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      STORE_BACKEND: postgres
+      DATABASE_URL: postgresql://landedcost:landedcost@db:5432/landedcost
+      EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-hash}
+      LLM_PROVIDER: ${LLM_PROVIDER:-none}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      AZURE_OPENAI_ENDPOINT: ${AZURE_OPENAI_ENDPOINT:-}
+      AZURE_OPENAI_API_KEY: ${AZURE_OPENAI_API_KEY:-}
+      AZURE_OPENAI_CHAT_DEPLOYMENT: ${AZURE_OPENAI_CHAT_DEPLOYMENT:-}
+      AZURE_OPENAI_EMBEDDING_DEPLOYMENT: ${AZURE_OPENAI_EMBEDDING_DEPLOYMENT:-}
+    command: ["sh", "-c", "landedcost migrate && landedcost ingest-hts --if-empty && landedcost serve"]
+    # Published on the loopback interface only: the API has no authentication or rate
+    # limiting, and with LLM keys configured every request can spend provider credits.
+    ports:
+      - "127.0.0.1:8201:8201"
+
+volumes:
+  pgdata:

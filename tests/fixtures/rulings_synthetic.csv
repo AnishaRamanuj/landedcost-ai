@@ -1,0 +1,5 @@
+ruling_number,ruling_date,product_description,hts_codes,url,excerpt
+TEST-0001,2025-01-15,"Rechargeable lithium-ion battery module for electric kick scooters",8507.60.0090,https://example.invalid/rulings/TEST-0001,"SYNTHETIC TEST RULING - not a real CBP ruling. The battery module is classified in subheading 8507.60."
+TEST-0002,2025-02-03,"Raw clover honey packed in plastic squeeze bottles for retail sale",0409.00.0010,https://example.invalid/rulings/TEST-0002,"SYNTHETIC TEST RULING - not a real CBP ruling. Natural honey put up for retail sale."
+TEST-0003,2025-03-10,"Lithium-ion power bank cells assembled into a battery pack",8507.60.0020,https://example.invalid/rulings/TEST-0003,"SYNTHETIC TEST RULING - cites a statistical suffix that does not exist in this HTS edition."
+TEST-0004,2025-04-22,"Men's cotton knit crew-neck tee shirt",6109.10.0012;6109.10.0004,https://example.invalid/rulings/TEST-0004,"SYNTHETIC TEST RULING - not a real CBP ruling. Knitted cotton T-shirt."

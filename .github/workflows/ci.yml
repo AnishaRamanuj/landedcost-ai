@@ -1,0 +1,137 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint and type-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
+        with:
+          enable-cache: true
+      - name: Install
+        run: uv sync --locked --python 3.12
+      - name: Ruff (lint)
+        run: uv run ruff check src tests scripts
+      - name: Ruff (format)
+        run: uv run ruff format --check src tests scripts
+      - name: Mypy (strict)
+        run: uv run mypy
+
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12", "3.13"]
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: dev
+          POSTGRES_PASSWORD: dev
+          POSTGRES_DB: landedcost_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U dev -d landedcost_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    env:
+      LANDEDCOST_TEST_DATABASE_URL: postgresql://dev:dev@localhost:5432/landedcost_test
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
+        with:
+          enable-cache: true
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: uv sync --locked --python ${{ matrix.python-version }}
+      - name: Unit and integration tests
+        run: uv run --python ${{ matrix.python-version }} pytest --cov=landedcost --cov-report=term-missing
+
+  eval:
+    name: Retrieval eval (full HTS, hash embedder)
+    needs: test
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: dev
+          POSTGRES_PASSWORD: dev
+          POSTGRES_DB: landedcost
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U dev -d landedcost"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    env:
+      DATABASE_URL: postgresql://dev:dev@localhost:5432/landedcost
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
+        with:
+          enable-cache: true
+      - name: Install
+        run: uv sync --locked --python 3.12
+      - name: Migrate and ingest the HTS snapshot
+        run: |
+          uv run landedcost migrate
+          uv run landedcost ingest-hts
+      # Floors sit a little below the published results (docs/eval/hash-embedder.md:
+      # hybrid 0.554, full-text 0.645), so a retrieval regression fails the build.
+      - name: Run eval
+        run: >-
+          uv run landedcost eval --answers
+          --output eval-report.md --details eval-details.jsonl
+          --fail-under hybrid=0.50 --fail-under fts=0.60
+      - name: Publish summary
+        if: always()
+        run: cat eval-report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: eval-report
+          path: |
+            eval-report.md
+            eval-details.jsonl
+
+  docker:
+    name: Docker image builds and serves
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build
+        run: docker build --tag landedcost-ai:ci .
+      - name: Smoke test (in-memory store, no database)
+        run: |
+          docker run --detach --name landedcost -p 127.0.0.1:8201:8201 \
+            -e STORE_BACKEND=memory landedcost-ai:ci
+          for _ in $(seq 1 60); do
+            if curl -fsS http://127.0.0.1:8201/healthz; then break; fi
+            sleep 2
+          done
+          curl -fsS http://127.0.0.1:8201/healthz | grep -q '"status":"ok"'
+          curl -fsS -X POST http://127.0.0.1:8201/classify \
+            -H 'Content-Type: application/json' \
+            -d '{"description": "natural honey in glass jars"}' | grep -q '"disclaimer"'
+      - name: Container logs
+        if: always()
+        run: docker logs landedcost || true
